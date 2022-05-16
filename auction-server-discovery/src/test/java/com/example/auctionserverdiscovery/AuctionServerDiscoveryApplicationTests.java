@@ -1,10 +1,10 @@
-package com.example.auctioneurekaserver;
+package com.example.auctionserverdiscovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuctionEurekaserverApplicationTests {
+class AuctionServerDiscoveryApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>auction-eurekaserver</artifactId>
+	<artifactId>auction-server-discovery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auction-eurekaserver</name>
-	<description>Demo project for auction</description>
+	<name>auction-server-discovery</name>
+	<description>Demo project auction discovery server</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<spring-cloud.version>2021.0.2</spring-cloud.version>
 	</properties>
 	<dependencies>
