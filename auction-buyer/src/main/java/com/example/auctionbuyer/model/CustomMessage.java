@@ -12,7 +12,7 @@ import java.util.Date;
 @ToString
 public class CustomMessage {
     private long id;
-    private String messageId;
     private String message;
+    private byte[] pictureByte;
     private Date messageDate;
 }

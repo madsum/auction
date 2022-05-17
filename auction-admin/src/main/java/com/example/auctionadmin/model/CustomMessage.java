@@ -8,6 +8,7 @@ import lombok.ToString;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.util.Date;
 
 @Data
@@ -19,7 +20,8 @@ public class CustomMessage {
     @Id
     @GeneratedValue
     private long id;
-    private String messageId;
     private String message;
+    @Transient
+    private byte[] pictureByte;
     private Date messageDate;
 }

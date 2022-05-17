@@ -12,8 +12,8 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 public class CustomMessage {
-    private String messageId;
     private String message;
+    private byte[] pictureByte;
     private Date messageDate;
 
 }
